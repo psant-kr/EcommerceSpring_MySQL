@@ -24,7 +24,7 @@ public class  Product  extends BaseEntity{
     private boolean popular;
 
     @ManyToOne
-    @JoinColumn(name="categoryId", nullable=false)
+    @JoinColumn(name="category_id", nullable=false)
     private Category category;
 
 }
